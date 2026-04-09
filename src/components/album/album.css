@@ -1,0 +1,25 @@
+.album{  
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "picture"
+                         "details";
+    box-sizing: border-box;
+    margin: 20px;
+    box-shadow: 0 0 50px rgba(255, 183, 181, 0.5); /* Apricot Glow */
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+}
+.albumimg{
+    grid-area: picture;
+    border: 1px solid red;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+.albumdetails{
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: details;
+}

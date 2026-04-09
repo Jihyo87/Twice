@@ -1,0 +1,28 @@
+.discography{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "discoh2"
+                         "discocards";
+    gap: 40px;
+    padding: 50px;
+}
+.discographyh2{
+    grid-area: discoh2;
+    color: #E0E0E0;
+    text-align: center;
+    font-size: 5rem;
+    font-family: serif;
+    letter-spacing: 2px;
+}
+.discographycards{
+    grid-area: discocards;
+    display: flex;
+    flex-wrap: wrap;      
+    justify-content: center; 
+    gap: 30px;        
+    padding: 40px;
+    background-color: #1A1625;
+    width: 100%;
+    box-sizing: border-box;
+}

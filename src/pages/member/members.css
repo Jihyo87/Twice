@@ -127,7 +127,7 @@
 .cardswrapper:hover .hovercard{
     transform: translateY(0);
     opacity: 1;
-    background: white;
+    background: #FAF9F6;
     
 }
 .cardswrapper:hover img{
