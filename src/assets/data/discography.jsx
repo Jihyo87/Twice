@@ -25,43 +25,43 @@ const TwiceDiscography = [
   { id: 23, title: "TEN: The Story Goes On", releaseDate: "2025-10-10", type: "Album", category: "Korean", cover: "/thestorygoeson.jpg", titleTrack: "ME+YOU", slug: "ten-the-story-goes-on" },
 
   // — GROUP (Japanese Major)
-  { id: 24, title: "#TWICE", releaseDate: "2017-06-28", type: "Compilation", category: "Japanese", cover: "", titleTrack: "Like OOH-AHH -Japanese ver.-", slug: "hashtag-twice" },
-  { id: 25, title: "#TWICE2", releaseDate: "2019-03-06", type: "Compilation", category: "Japanese", cover: "", titleTrack: "LIKEY -Japanese ver.-", slug: "twice2" },
-  { id: 26, title: "#TWICE3", releaseDate: "2020-09-16", type: "Compilation", category: "Japanese", cover: "", titleTrack: "The Best Thing I Ever Did -Japanese ver.-", slug: "twice3" },
-  { id: 27, title: "#TWICE4", releaseDate: "2022-03-16", type: "Compilation", category: "Japanese", cover: "", titleTrack: "I CAN'T STOP ME -Japanese ver.-", slug: "twice4" },
-  { id: 28, title: "BDZ", releaseDate: "2018-09-12", type: "Album", category: "Japanese", cover: "", titleTrack: "BDZ", slug: "bdz" },
-  { id: 29, title: "&TWICE", releaseDate: "2019-11-20", type: "Album", category: "Japanese", cover: "", titleTrack: "Fake & True", slug: "&-twice" },
-  { id: 30, title: "Perfect World", releaseDate: "2021-07-28", type: "Album", category: "Japanese", cover: "", titleTrack: "Perfect World", slug: "perfect-world" },
-  { id: 31, title: "Celebrate", releaseDate: "2022-07-27", type: "Album", category: "Japanese", cover: "", titleTrack: "Celebrate", slug: "celebrate" },
-  { id: 32, title: "DIVE", releaseDate: "2024-07-17", type: "Album", category: "Japanese", cover: "", titleTrack: "DIVE", slug: "dive" },
-  { id: 33, title: "ENEMY", releaseDate: "2025-08-27", type: "Album", category: "Japanese", cover: "", titleTrack: "ENEMY", slug: "enemy" },
-  { id: 34, title: "Twice5", releaseDate: "2025-05-14", type: "Compilation", category: "Japanese", cover: "", titleTrack: "Hare Hare", slug: "twice5" },
+  { id: 24, title: "#TWICE", releaseDate: "2017-06-28", type: "Compilation", category: "Japanese", cover: "/twice1.jpg", titleTrack: "Like OOH-AHH -Japanese ver.-", slug: "hashtag-twice" },
+  { id: 25, title: "#TWICE2", releaseDate: "2019-03-06", type: "Compilation", category: "Japanese", cover: "/twice2.jpg", titleTrack: "LIKEY -Japanese ver.-", slug: "twice2" },
+  { id: 26, title: "#TWICE3", releaseDate: "2020-09-16", type: "Compilation", category: "Japanese", cover: "/twice3.jpg", titleTrack: "The Best Thing I Ever Did -Japanese ver.-", slug: "twice3" },
+  { id: 27, title: "#TWICE4", releaseDate: "2022-03-16", type: "Compilation", category: "Japanese", cover: "/twice4.png", titleTrack: "I CAN'T STOP ME -Japanese ver.-", slug: "twice4" },
+  { id: 28, title: "BDZ", releaseDate: "2018-09-12", type: "Album", category: "Japanese", cover: "/bdz.jpg", titleTrack: "BDZ", slug: "bdz" },
+  { id: 29, title: "&TWICE", releaseDate: "2019-11-20", type: "Album", category: "Japanese", cover: "/fakeandtrue.png", titleTrack: "Fake & True", slug: "&-twice" },
+  { id: 30, title: "Perfect World", releaseDate: "2021-07-28", type: "Album", category: "Japanese", cover: "/perfectworld.jpg", titleTrack: "Perfect World", slug: "perfect-world" },
+  { id: 31, title: "Celebrate", releaseDate: "2022-07-27", type: "Album", category: "Japanese", cover: "/celebrate.jpg", titleTrack: "Celebrate", slug: "celebrate" },
+  { id: 32, title: "DIVE", releaseDate: "2024-07-17", type: "Album", category: "Japanese", cover: "/dive.jpg", titleTrack: "DIVE", slug: "dive" },
+  { id: 33, title: "ENEMY", releaseDate: "2025-08-27", type: "Album", category: "Japanese", cover: "/enemy.jpg", titleTrack: "ENEMY", slug: "enemy" },
+  { id: 34, title: "Twice5", releaseDate: "2025-05-14", type: "Compilation", category: "Japanese", cover: "/twice5.webp", titleTrack: "Hare Hare", slug: "twice5" },
 
   // — JAPANESE SINGLE ALBUMS
-  { id: 35, title: "One More Time", releaseDate: "2017-10-18", type: "Single", category: "Japanese", cover: "", titleTrack: "One More Time", slug: "one-more-time" },
-  { id: 36, title: "Candy Pop", releaseDate: "2018-02-07", type: "Single", category: "Japanese", cover: "", titleTrack: "Candy Pop", slug: "candy-pop" },
-  { id: 37, title: "Wake Me Up", releaseDate: "2018-05-16", type: "Single", category: "Japanese", cover: "", titleTrack: "Wake Me Up", slug: "wake-me-up" },
-  { id: 38, title: "Happy Happy", releaseDate: "2019-07-17", type: "Single", category: "Japanese", cover: "", titleTrack: "HAPPY HAPPY", slug: "happy-happy" },
-  { id: 39, title: "Breakthrough", releaseDate: "2019-07-24", type: "Single", category: "Japanese", cover: "", titleTrack: "Breakthrough", slug: "breakthrough" },
-  { id: 40, title: "Fanfare", releaseDate: "2020-07-08", type: "Single", category: "Japanese", cover: "", titleTrack: "Fanfare", slug: "fanfare" },
-  { id: 41, title: "BETTER", releaseDate: "2020-11-18", type: "Single", category: "Japanese", cover: "", titleTrack: "BETTER", slug: "better" },
-  { id: 42, title: "Kura Kura", releaseDate: "2021-05-12", type: "Single", category: "Japanese", cover: "", titleTrack: "Kura Kura", slug: "kura-kura" },
-  { id: 43, title: "Doughnut", releaseDate: "2021-12-15", type: "Single", category: "Japanese", cover: "", titleTrack: "Doughnut", slug: "doughnut" },
+  { id: 35, title: "One More Time", releaseDate: "2017-10-18", type: "Single", category: "Japanese", cover: "/onemoretime.jpg", titleTrack: "One More Time", slug: "one-more-time" },
+  { id: 36, title: "Candy Pop", releaseDate: "2018-02-07", type: "Single", category: "Japanese", cover: "/candypop.png", titleTrack: "Candy Pop", slug: "candy-pop" },
+  { id: 37, title: "Wake Me Up", releaseDate: "2018-05-16", type: "Single", category: "Japanese", cover: "/wakemeup.jpg", titleTrack: "Wake Me Up", slug: "wake-me-up" },
+  { id: 38, title: "Happy Happy", releaseDate: "2019-07-17", type: "Single", category: "Japanese", cover: "/happhappy.webp", titleTrack: "HAPPY HAPPY", slug: "happy-happy" },
+  { id: 39, title: "Breakthrough", releaseDate: "2019-07-24", type: "Single", category: "Japanese", cover: "/breakthrough.png", titleTrack: "Breakthrough", slug: "breakthrough" },
+  { id: 40, title: "Fanfare", releaseDate: "2020-07-08", type: "Single", category: "Japanese", cover: "/fanfare.png", titleTrack: "Fanfare", slug: "fanfare" },
+  { id: 41, title: "BETTER", releaseDate: "2020-11-18", type: "Single", category: "Japanese", cover: "/better.webp", titleTrack: "BETTER", slug: "better" },
+  { id: 42, title: "Kura Kura", releaseDate: "2021-05-12", type: "Single", category: "Japanese", cover: "/kurakura.jpg", titleTrack: "Kura Kura", slug: "kura-kura" },
+  { id: 43, title: "Doughnut", releaseDate: "2021-12-15", type: "Single", category: "Japanese", cover: "/doughnut.jpg", titleTrack: "Doughnut", slug: "doughnut" },
 
   // — SUBUNIT (MiSaMo)
-  { id: 44, title: "Masterpiece", releaseDate: "2023-07-26", type: "Album", category: "Subunit", cover: "", titleTrack: "Do not touch", slug: "masterpiece" },
-  { id: 45, title: "HAUTE COUTURE", releaseDate: "2024-11-06", type: "EP", category: "Subunit", cover: "", titleTrack: "Identity", slug: "haute-couture" },
-  { id: 46, title: "PLAY", releaseDate: "2026-02-04", type: "Album", category: "Subunit", cover: "", titleTrack: "Confetti", slug: "play" },
+  { id: 44, title: "Masterpiece", releaseDate: "2023-07-26", type: "Album", category: "Subunit", cover: "/donottouch.jpg", titleTrack: "Do not touch", slug: "masterpiece" },
+  { id: 45, title: "HAUTE COUTURE", releaseDate: "2024-11-06", type: "EP", category: "Subunit", cover: "/hautecouture.jpg", titleTrack: "Identity", slug: "haute-couture" },
+  { id: 46, title: "PLAY", releaseDate: "2026-02-04", type: "Album", category: "Subunit", cover: "/play.webp", titleTrack: "Confetti", slug: "play" },
 
   // — SOLO MAJOR
-  { id: 47, title: "ZONE", releaseDate: "2023-08-18", type: "Mini Album", category: "Solo", cover: "", titleTrack: "Killin' Me Good", slug: "zone-jihyo" },
-  { id: 48, title: "IM NAYEON", releaseDate: "2022-06-24", type: "Mini Album", category: "Solo",  cover: "",titleTrack: "POP!", slug: "im-nayeon"},
-  { id: 49, title: "Na", releaseDate: "2024-06-14", type: "Mini Album", category: "Solo", cover: "", titleTrack: "ABCD", slug: "na-nayeon" },
-  { id: 50, title: "Aboutzu", releaseDate: "2024-09-06", type: "Mini Album", category: "Solo", cover: "", titleTrack: "Run Away", slug: "aboutzu-tzuyu" },
-  { id: 51, title: "Lil Fantasy Vol. 1", releaseDate: "2025-09-12", type: "Album", category: "Solo", cover: "", titleTrack: "SHOOT (Firecracker)", slug: "lil-fantasy-vol-1-chaeyoung" },
+  { id: 47, title: "ZONE", releaseDate: "2023-08-18", type: "Mini Album", category: "Solo", cover: "/zone.jpg", titleTrack: "Killin' Me Good", slug: "zone-jihyo" },
+  { id: 48, title: "IM NAYEON", releaseDate: "2022-06-24", type: "Mini Album", category: "Solo",  cover: "/imnayeon.webp",titleTrack: "POP!", slug: "im-nayeon"},
+  { id: 49, title: "Na", releaseDate: "2024-06-14", type: "Mini Album", category: "Solo", cover: "/na.webp", titleTrack: "ABCD", slug: "na-nayeon" },
+  { id: 50, title: "Aboutzu", releaseDate: "2024-09-06", type: "Mini Album", category: "Solo", cover: "/runaway.jpg", titleTrack: "Run Away", slug: "aboutzu-tzuyu" },
+  { id: 51, title: "Lil Fantasy Vol. 1", releaseDate: "2025-09-12", type: "Album", category: "Solo", cover: "/lilfantasy.png", titleTrack: "SHOOT (Firecracker)", slug: "lil-fantasy-vol-1-chaeyoung" },
 
   // — SOUNDTRACK / DIGITAL SINGLES
-  { id: 52, title: "Takedown", releaseDate: "2025-06-20", type: "Soundtrack Single", category: "Group", cover: "", titleTrack: "Takedown", slug: "takedown" }
+  { id: 52, title: "Takedown", releaseDate: "2025-06-20", type: "Soundtrack Single", category: "Group", cover: "/takedown.png", titleTrack: "Takedown", slug: "takedown" }
 ];
 
 export default TwiceDiscography;
