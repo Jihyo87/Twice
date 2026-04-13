@@ -61,7 +61,7 @@ const TwiceDiscography = [
   { id: 51, title: "Lil Fantasy Vol. 1", releaseDate: "2025-09-12", type: "Album", category: "Solo", cover: "/lilfantasy.png", titleTrack: "SHOOT (Firecracker)", slug: "lil-fantasy-vol-1-chaeyoung" },
 
   // — SOUNDTRACK / DIGITAL SINGLES
-  { id: 52, title: "Takedown", releaseDate: "2025-06-20", type: "Soundtrack Single", category: "Group", cover: "/takedown.png", titleTrack: "Takedown", slug: "takedown" }
+  { id: 52, title: "Takedown", releaseDate: "2025-06-20", type: "Soundtrack Single", category: "Subunit", cover: "/takedown.png", titleTrack: "Takedown", slug: "takedown" }
 ];
 
 export default TwiceDiscography;

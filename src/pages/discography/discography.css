@@ -1,10 +1,11 @@
 .discography{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto auto 1fr;
     grid-template-areas: "discoh2"
+                         "discooptions"
                          "discocards";
-    gap: 40px;
+    gap: 90px;
     padding: 50px;
 }
 .discographyh2{
@@ -14,6 +15,32 @@
     font-size: 5rem;
     font-family: serif;
     letter-spacing: 2px;
+}
+.searchfilter{
+    grid-area: discooptions;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 7px;
+    justify-content: center;
+}
+.searchfilter button{
+    border-radius: 50px;
+    padding: 8px 24px;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: 'Times New Roman', Times, serif;
+}
+.searchfilter button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: white;
+  transform: translateY(-2px);
+}
+.searchfilter button:active {
+  background: #ff5e5e; 
+  border-color: transparent;
+  box-shadow: 0 0 10px rgba(255, 94, 94, 0.5);
 }
 .discographycards{
     grid-area: discocards;
