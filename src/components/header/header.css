@@ -7,7 +7,10 @@
   font-style: normal;
 }
 .mainheader{
-  background-color: #a192d1;
+  background-color: #9b79dff3;
+  border-bottom: none;
+    box-shadow: none;
+  
 }
 .Headerh1{
   margin-left: 10%;

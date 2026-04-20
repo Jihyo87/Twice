@@ -3,8 +3,9 @@
     flex-direction: row;
     justify-content: center;
     align-items: normal;
-    
-    background-color: #a192d1;
+    border-bottom: none;
+    box-shadow: none;
+    background-color:#9576d4f3;  
 }
 .navbarlist {
     display: flex;
