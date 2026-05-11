@@ -30,10 +30,12 @@
     font-size: 3em;
     color: white;
     background: rgba(0, 0, 0, 0.6);
+    
 }
 .album:hover .albumdetails{
     opacity: 1;
     cursor: pointer;
+    text-align: center;
 }
 .album:hover .albumimg{
     filter: blur(8px);

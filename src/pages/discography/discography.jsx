@@ -18,8 +18,7 @@ function Discography() {
       <aside className="discographyh2">
         <h2>Discography</h2>
       </aside>
-
-
+      
       <aside className="searchfilter">
         <button onClick={() => setFilter("All")}>All</button>
         <button onClick={() => setFilter("Japanese")}>Japanese</button>
@@ -38,8 +37,16 @@ function Discography() {
         ))}
       </section>
 
+      <section className="discogrpahymv">
+    
+
+
+      </section>
+        
+      <aside className="discographymv">
+        
+      </aside>
     </section>
   );
 }
-
 export default Discography;
