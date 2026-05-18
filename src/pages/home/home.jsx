@@ -1,6 +1,6 @@
 import './home.css';
 import TwiceHome from '../../assets/images/twice-this-is-for-extraordinary-2k-wallpaper-uhdpaper.com-691@5@g.jpg'
-import { TWICE_MEMBERS } from '../../assets/data/members';
+import { TWICE_MEMBERS } from '../../assets/data/membersdata';
 
 function Home() {
     

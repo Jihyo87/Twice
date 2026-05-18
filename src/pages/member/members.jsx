@@ -1,5 +1,5 @@
 import "./members.css";
-import { TWICE_MEMBERS } from "../../assets/data/members";
+import { TWICE_MEMBERS } from "../../assets/data/membersdata.jsx";
 
 function Members() {
   return (

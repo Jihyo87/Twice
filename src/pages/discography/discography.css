@@ -16,6 +16,7 @@
     font-size: 5rem;
     font-family: serif;
     letter-spacing: 2px;
+    
 }
 .searchfilter{
     grid-area: discooptions;
@@ -24,6 +25,7 @@
     align-items: end;
     gap: 7px;
     justify-content: center;
+    
 }
 .searchfilter button{
     border-radius: 50px;
@@ -32,6 +34,7 @@
     cursor: pointer;
     transition: 0.2s;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 .searchfilter button:hover {
   background: rgba(255, 255, 255, 0.2);
@@ -53,10 +56,9 @@
     background-color: #1A1625;
     box-sizing: border-box;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
 }
 .discographycards img{
     cursor: pointer;
-}
-.discographycards :hover{
     
 }

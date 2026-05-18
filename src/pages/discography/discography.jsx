@@ -1,6 +1,6 @@
 import AlbumCard from "../../components/album/album.jsx"; 
 import "./discography.css";
-import TwiceDiscography from "../../assets/data/discography.jsx";
+import TwiceDiscography from "../../assets/data/albumdata.jsx";
 import { useState } from "react";
 
 function Discography() {
@@ -36,16 +36,6 @@ function Discography() {
           />
         ))}
       </section>
-
-      <section className="discogrpahymv">
-    
-
-
-      </section>
-        
-      <aside className="discographymv">
-        
-      </aside>
     </section>
   );
 }

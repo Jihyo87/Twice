@@ -1,0 +1,65 @@
+.albumdetailslayout{
+    display: grid;
+    grid-template-columns: 200px 1fr ;
+    grid-template-rows: 100px 200px 500px;
+    grid-template-areas: "detailtitle detailtrack"
+                         "detailtitle detaildesc"
+                         "detailtitle detailvideo" ;
+    color: white;
+    margin: 50px auto;
+    gap: 30px;
+    max-width: 1200px;
+}
+
+.albumdetailh2{
+    grid-area: detailtitle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.3rem;
+    font-family: 'Stardom-Regular', serif;
+    border-right: 2px solid red;
+}
+.albumdetailh2 h2{
+    font-size: 3.8rem;
+    font-weight: 900;
+    text-transform: uppercase; 
+    letter-spacing: 4px;       
+    color: #ffffff;
+}
+.detailtrackh2{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-weight: 900;
+    letter-spacing: 4px;
+    color: #ffffff;
+    white-space: nowrap;
+}
+.detailtrack{
+    grid-area: detailtrack;
+}
+.detailtrack h3{
+    font-size: 3rem;
+    letter-spacing: -0.5px;
+    color: #FF66B2;
+    font-weight: 900;
+    text-align: center;
+}
+.detaildesc{
+    grid-area: detaildesc;
+}
+.detaildesc p{
+    font-size: 1.9rem;
+    color: #D1D1D6;
+}
+.detailvids{
+    grid-area: detailvideo;
+    width: 100%;
+    max-width: 500px;
+    margin: 0;
+}
+.iframe{
+    width: 100%;
+    height: 100%;
+
+}
