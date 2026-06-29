@@ -16,11 +16,11 @@ function App() {
         <Route path="/" element={<Mainlayout />}>
           <Route index element={<Home />} />
           <Route path="members" element={<Members/>} />
-          <Route path="about" element={<About/>} />
           <Route path="discography" element={<Discography/>} />
           <Route path="discography/:slug" element={<AlbumDetail/>} />
+          <Route path="about" element={<About/>} />
           <Route path="*" element={<h2>404 - Page Not Found</h2>} />
-        </Route>
+        </Route>z
       </Routes>
     </BrowserRouter>
     )

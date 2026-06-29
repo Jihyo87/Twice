@@ -1,10 +1,9 @@
-.Homecontainer{
+.homecontainer{
     position: relative;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
 }
-.Homeh2{
+.homeh2{
     position: absolute;
     top: 73%;
     left: 40%;
@@ -26,6 +25,9 @@
     left: 30%;
     gap: 10px;
 }
+.homemobilelogo{
+    display: none;
+}
 .homep{
     white-space: nowrap;
     font-style: italic;
@@ -42,11 +44,51 @@
 .homep:nth-child(odd){
     transform: translateX(20px);
 }
-.Homeimage{
+.homeimage{
     display: block;
-    width: 100%;
-    object-fit: fill;
-    height: 150vh;
-    opacity: 86%;
-    z-index: 0;
+    width: 100vw;
+    object-fit: cover;
+}
+
+@media (max-width:768px) {
+    .homecontainer{
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "hm-logo hm-logo "
+                             "hm-social hm-nav";
+        background-image: url('../../assets/images/twicemobileee.webp');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+    .navbar{
+        grid-area: hm-nav;
+    }
+    .socialmedia{
+        grid-area: hm-social;
+    }
+    .homemobilelogo{
+        grid-area: hm-logo;
+        display: block;
+        height: 100px;
+        width: 90px;
+    }
+    .twicelogo, .homeabout, .copyright{
+        display: none;
+    }
+    .homemember{
+        display: none;
+    }
+    .mainheader{
+        display: none;
+    }
+    .homeh2{
+        display: none;
+    }
+    .homeimage{
+        display: none;
+    }
 }

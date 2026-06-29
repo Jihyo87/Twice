@@ -6,7 +6,7 @@ function Header() {
   return (
    <header className='mainheader'>
             <Link to='/' className="header" >
-                <h1 className='Headerh1'> TWICE </h1>
+                <h1 className='headerh1'> TWICE </h1>
             </Link>
         </header>
   );
