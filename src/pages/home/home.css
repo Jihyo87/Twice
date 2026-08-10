@@ -45,26 +45,14 @@
     width: 100vw;
     object-fit: cover;
 }
-
 @media (max-width:768px) {
     .homecontainer{
-        min-height: 110vh;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto auto;
-        grid-template-areas: "bad hm-logo"
-                             "bad hm-nav"
-                             "hm-footer hm-footer";
+        height: 100%;
+        width: 100vw;
         background-image: url('../../assets/images/twicemobileee.webp');
         opacity: 0.9;
         background-size: cover;
-    }
-    .homemo
-    .navbar{
-        grid-area:hm-nav;
-    }
-    .wrapperfooter{
-        grid-area: hm-footer;
+        background-position: center top;
     }
     .twicelogo,.copyright{
         display: none;
