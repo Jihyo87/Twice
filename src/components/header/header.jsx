@@ -1,4 +1,5 @@
 import './header.css'
+import TwiceMobileLogo from '../../assets/images/Logo_of_TWICE.svg'
 import { Link } from 'react-router-dom';
 
 
@@ -8,6 +9,11 @@ function Header() {
             <Link to='/' className="header" >
                 <h1 className='headerh1'> TWICE </h1>
             </Link>
+            <section >
+              <Link to="/">
+                <img className="homemobilelogo" src={TwiceMobileLogo} alt='Mobile logo'/>
+              </Link>
+            </section>
         </header>
   );
 }

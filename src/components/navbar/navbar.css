@@ -30,3 +30,30 @@
 .navbarlist li :hover{
     color: black;
 }
+@media (max-width:768px) {
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: none;
+        box-shadow: none;
+        background: rgba(18, 15, 28, 0.8) !important;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .navbarlist {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        list-style: none;
+        margin-left: 0px;
+    }
+    .navbarlist li{
+        font-size: 1.6rem;
+        font-family: 'Stardom-Regular', serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+}

@@ -54,3 +54,41 @@
     text-transform: uppercase;
     color: #94A3B8;
 }
+@media (max-width:768px) {
+    .wrapperfooter{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(2, auto);
+        grid-template-areas:
+            "socialmedia homeabout";
+        background-color: #120A0B;
+        
+    }
+    .socialmedia{
+        grid-area: socialmedia;
+        display: flex;
+        font-size: 2.2rem;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .socialmedia a{
+        color:#FF5FA2;;
+        font-family: 'Montserrat', 'Inter', sans-serif;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-size: 2.1rem;
+    }
+    .homeabout{
+        grid-area: homeabout;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .homeabout a{
+        color: #FF5FA2;
+        font-size: 1.9rem;
+        letter-spacing: 1px;
+    }
+}

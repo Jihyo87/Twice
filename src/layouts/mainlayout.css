@@ -22,3 +22,16 @@ main{
 .mainfooter{
     grid-area: footer;
 }
+@media (max-width:768px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 130px auto 1fr auto;
+        grid-template-areas: 
+                             "header"
+                             "nav"
+                             "main"
+                             "footer";
+                        
+    }
+}

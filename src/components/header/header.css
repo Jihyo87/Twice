@@ -11,6 +11,9 @@
   border-bottom: none;
   box-shadow: none;
 }
+.homemobilelogo{
+    display: none;
+}
 .headerh1{
   margin-left: 10%;
   font-size: 3rem;
@@ -32,4 +35,23 @@
   color:  #E0E0E0;
   transition: 0.5s;
   font-weight: 900;
+}
+@media (max-width:768px) {
+    .mainheader{
+      background: rgba(18, 15, 28, 0.8) !important;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(141, 107, 107, 0.08);
+      border-bottom: none;
+    }
+    .homemobilelogo{
+            display: block;
+            filter: drop-shadow(0 0 10px rgba(255, 95, 162, 0.5));
+            height: 100px;
+            width: 90px;
+            margin: 0 auto;
+        }
+    .headerh1{
+        display: none;
+    }
 }
