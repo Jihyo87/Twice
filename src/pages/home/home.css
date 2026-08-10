@@ -47,12 +47,13 @@
 }
 @media (max-width:768px) {
     .homecontainer{
-        height: 100%;
-        width: 100vw;
+        min-height: 100svh;
+        width: 100%;
         background-image: url('../../assets/images/twicemobileee.webp');
-        opacity: 0.9;
+        background-repeat: no-repeat;
         background-size: cover;
         background-position: center top;
+        opacity: 0.9;
     }
     .twicelogo,.copyright{
         display: none;
