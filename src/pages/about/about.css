@@ -10,8 +10,8 @@
     gap: 90px;
 }
 .aboutheaders{
-    grid-area: aboutheader;
-    font-family: "Cinzel Decorative", serif;
+  grid-area: aboutheader;
+  font-family: "Cinzel Decorative", serif;
   font-weight: 900;
   font-style: normal;
   background: linear-gradient(to bottom, #615327, #f8a305);
@@ -29,7 +29,6 @@
 .aboutheaders h3{
     font-size: 3rem;
     line-height: 1.7;
-    
 }
 .aboutimage{
     grid-area: aboutimage;
@@ -47,4 +46,27 @@
     line-height: 2;     
     color: whitesmoke; 
     font-family: sans-serif;
+}
+@media (max-width: 768px) {
+    .about{
+        margin-top: 150px;
+        max-width: 100%;
+        gap: 20px;
+    }
+    .aboutheaders h2{
+        font-size: 4rem;
+    }
+    .aboutheaders h3{
+        font-size: 2rem;
+    }
+    .aboutimage{
+        max-width: 95%;
+        height: 100%;
+    }
+    .abouttext{
+        padding: 20px;
+        margin: 20px auto;
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
 }

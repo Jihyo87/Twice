@@ -59,14 +59,11 @@
     .wrapperfooter{
         display: grid;
         grid-template-rows: 1fr;
-        grid-template-columns: 1fr auto 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
-            "socialmedia copyright homeabout";
+            "homeabout copyright socialmedia";
         background-color: #120A0B;
-        align-items: center;
         border-top: 1px solid rgba(255, 105, 180, 0.3);
-        padding: 5px 40px; 
-        box-sizing: border-box;
     }
     .socialmedia{
         grid-area: socialmedia;
@@ -80,7 +77,7 @@
         font-weight: 600;
         letter-spacing: 1px;
         text-decoration: none;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .homeabout{
         grid-area: homeabout;
@@ -90,7 +87,7 @@
     }
     .homeabout a{
         color: #FF5FA2;
-        font-size: 1.8rem;
+        font-size: 1.31rem;
         letter-spacing: 1px;  
     }
     .copyright{
@@ -103,7 +100,8 @@
         font-family: 'Poppins', sans-serif;
         border-left: 1px solid rgba(255, 255, 255, 0.15);
         border-right: 1px solid rgba(255, 255, 255, 0.15);
-        padding: 0 10px;
+        padding: 0 5px;
+        margin-left: 70px;
     }
     .twicelogo{
         display: none;
