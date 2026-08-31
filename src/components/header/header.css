@@ -38,19 +38,17 @@
 }
 @media (max-width:768px) {
     .mainheader{
-      background: rgba(18, 15, 28, 0.8) !important;
+      background: rgba(18, 15, 28, 0.4);
       backdrop-filter: blur(10px);
       -webkit-backdrop-filter: blur(10px);
-      border-bottom: 1px solid rgba(141, 107, 107, 0.08);
-      border-bottom: none;
     }
     .homemobilelogo{
-            display: block;
-            filter: drop-shadow(0 0 10px rgba(255, 95, 162, 0.5));
-            height: 100px;
-            width: 90px;
-            margin: 0 auto;
-        }
+      display: block;
+      filter: drop-shadow(0 0 10px rgba(255, 95, 162, 0.5));
+      height: 50px;
+      width: auto;
+      margin-left: 10px;
+    }
     .headerh1{
         display: none;
     }

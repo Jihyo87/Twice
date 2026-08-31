@@ -61,5 +61,30 @@
 .iframe{
     width: 100%;
     height: 100%;
-
+}
+@media (max-width: 768px) {
+    .albumdetailslayout{
+        margin-top: 100px;
+        min-height: 100vh;
+        grid-template-columns: 50px 1fr;
+        grid-template-rows: auto auto 500px;
+        gap: 10px;
+    }
+    .albumdetailh2{
+        border-right: 2px solid cyan;
+    }
+    .albumdetailh2 h2{
+        font-size: 1.2rem;
+    }
+    .detailtrack h3{
+        font-size: 2rem;
+    }
+    .detaildesc p{
+        font-size: 1.4rem;
+        margin: 0 5px;
+    }
+    .iframe{
+        width: 96%;
+        height: 100%;
+    }
 }

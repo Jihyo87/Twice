@@ -23,7 +23,7 @@ function AlbumDetail(){
                 <h2 className='detailtrackh2'> {album.title} </h2>
             </section>
             <aside className='detailtrack'>
-                <h3 > Title Track   : {album.titleTrack} </h3>
+                <h3 > Title Track: {album.titleTrack} </h3>
             </aside> 
             <aside className='detaildesc'>
                 <p>{album.description}</p>

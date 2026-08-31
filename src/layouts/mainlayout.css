@@ -7,7 +7,7 @@
                          "footer footer";
 
     min-height: 100vh;
-    background-color: #1A1625;
+    background-color: hsl(256, 25%, 12%);
 }
 
 .mainheader{
@@ -25,12 +25,27 @@ main{
 @media (max-width:768px) {
     .wrapper{
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 130px auto 1fr auto;
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: auto 1fr auto;
         grid-template-areas: 
-                             "header"
-                             "nav"
-                             "main"
-                             "footer";                 
+                             "header nav"
+                             "main main"
+                             "footer footer";                
+    }
+    .mainheader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        background-color:hsl(256, 25%, 12%);
+    }
+    .navbar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1000;
+    }
+    main{
+        min-height: 100vh;
     }
 }

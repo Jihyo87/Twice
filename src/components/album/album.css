@@ -43,3 +43,16 @@
     filter: blur(8px);
     color: black;
 }
+@media (max-width: 768px) {
+    .album{
+        width: 300px;
+        height: 400px;
+    }
+    .albumimg{
+        height: 400px;
+        width: 300px;
+    }
+    .albumdetails{
+        font-size: 1em;
+    }
+}

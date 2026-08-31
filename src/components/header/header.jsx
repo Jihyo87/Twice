@@ -1,5 +1,5 @@
 import './header.css'
-import TwiceMobileLogo from '../../assets/images/Logo_of_TWICE.svg'
+import TwiceMobileLogo from '../../assets/images/twicemobile3.svg'
 import { Link } from 'react-router-dom';
 
 
