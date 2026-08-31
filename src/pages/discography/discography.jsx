@@ -6,7 +6,6 @@ import { useState } from "react";
 function Discography() {
   const [filter, setFilter] = useState("All");
 
-  // ✅ filtering logic
   const filteredAlbums = TwiceDiscography.filter((album) => {
     if (filter === "All") return true;
     return album.category === filter;
