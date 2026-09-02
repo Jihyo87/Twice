@@ -7,8 +7,7 @@
                          "discooptions"
                          "discocards";
     gap: 90px;
-    padding: 50px;
-    
+    padding: 50px; 
 }
 .discographyh2{
     grid-area: discoh2;
@@ -17,7 +16,6 @@
     font-size: 5rem;
     font-family: serif;
     letter-spacing: 2px;
-    
 }
 .searchfilter{
     grid-area: discooptions;
@@ -64,7 +62,6 @@
 @media screen and (max-width: 768px) {
     .discography{
         width: 100%;
-        min-width: 0;
         gap: 30px;
         padding: 20px;
     }

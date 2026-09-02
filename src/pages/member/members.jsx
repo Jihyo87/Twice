@@ -16,10 +16,10 @@ function Members() {
                 </aside>
                 <img className="hoverimage" src={members.image} alt="members images" />
                 <aside className="hoverinfo">
-                <h2>  {members.name}</h2>
-                <h2> {members.age}</h2>
-                <h2> {members.role} </h2>
-                <h2> {members.nationality} </h2>
+                  <h2>  {members.name}</h2>
+                  <h2> {members.age}</h2>
+                  <h2> {members.role} </h2>
+                  <h2> {members.nationality} </h2>
                 </aside>
             </section>  
         </section>

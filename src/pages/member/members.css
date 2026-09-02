@@ -10,6 +10,7 @@
     padding: 50px;
     gap: 20px;
     pointer-events: none;
+    
 }
 .cardswrapper{
     width: 1000px;
@@ -23,6 +24,7 @@
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px,
     rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
     transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
+    
 }
 .frontcard{
     position: absolute;
@@ -49,21 +51,13 @@
 .hovercard{
     position: absolute;
     display: grid;
-    grid-template-rows: 70px 2fr  auto;
+    grid-template-rows: 70px 1fr  auto;
     grid-template-areas: "nameemoji"
                          "profile"
                          "details";
     inset: 0;
     z-index: 2;
-}
-.hoverimage{
-    grid-area: profile;
-    height: 95%;
-    width: 95%;
-    margin-top: 20px;
-    margin-left: 20px;
-    object-fit: cover;
-    border-radius: 50px;
+    background-color: #1a1a1a;
 }
 .hoveremoji{
     grid-area: nameemoji;
@@ -87,10 +81,19 @@
     text-align: right;
     margin: 5%;
 }
+.hoverimage{
+    grid-area: profile;
+    height: 95%;
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 20px;
+    object-fit: cover;
+    border-radius: 5z0px;
+}
 .hoverinfo{
     grid-area: details;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto auto;
     gap: 0.75rem 1rem; 
     margin: 20px;
     font-family: sans-serif;
@@ -177,20 +180,26 @@
         height: 700px;
         margin: 0 auto;
         gap: 2px;
+        background-color: #1a1a1a;
         box-sizing: border-box;
     }
     .hovercard{
         background-color: black;
         width: 100%;
         height: 100%;
-        grid-template-rows: auto 1fr auto;
+        grid-template-rows: 40px 1fr auto;
+    }
+    .hoverinfo{
+        margin:10px;
+        border: 5px solid rgba(7, 7, 103, 0.88);
     }
     .hoverinfo h2{
-        font-size: 1.2rem;
+        font-size: 1rem;
+        text-align: center;
         margin-left: 1px;
     }
     .hoveremoji{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .hoveremoji h2{
         color: #1a1a1a;
