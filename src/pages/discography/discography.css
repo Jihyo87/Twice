@@ -63,7 +63,7 @@
     .discography{
         width: 100%;
         gap: 30px;
-        padding: 40px;
+        padding: 10px;
     }
     .discographyh2{
         margin-top: 40px;
@@ -72,5 +72,9 @@
     .searchfilter button{
         padding: 3px 7px;
         font-size: 0.8rem;
+    }
+    .discographycards{
+        padding: 10px;
+        gap: 10px;
     }
 }
