@@ -69,6 +69,7 @@
         grid-template-columns: 50px 1fr;
         grid-template-rows: auto auto 500px;
         gap: 10px;
+        max-width: 1000px;
     }
     .albumdetailh2{
         border-right: 2px solid cyan;
@@ -78,13 +79,15 @@
     }
     .detailtrack h3{
         font-size: 2rem;
+        color: white;
     }
     .detaildesc p{
         font-size: 1.4rem;
         margin: 0 5px;
+        font-family: sans-serif;
     }
     .iframe{
-        width: 96%;
+        max-width: 96%;
         height: 100%;
     }
 }

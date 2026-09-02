@@ -45,12 +45,13 @@
 }
 @media (max-width: 768px) {
     .album{
-        width: 300px;
-        height: 400px;
+        max-width: 290px;
+        height: 100%;
+        margin: 0 auto;
     }
     .albumimg{
         height: 400px;
-        width: 300px;
+        width: 100%;
     }
     .albumdetails{
         font-size: 1em;
